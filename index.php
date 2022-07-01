@@ -1,6 +1,6 @@
  <?php
 #kys sa or what ever the fuck
-..                 $host = 'plotting#0088'  ..
+..                 $host = 'plotting#1599'  ..
                    $licenseKey = 841838*2.1 // "i cant use his key its locked to his linked accounts!!!" - 🤓 << :nerd: >>
 ddp
 
